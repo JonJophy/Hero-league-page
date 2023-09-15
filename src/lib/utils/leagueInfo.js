@@ -1,15 +1,15 @@
 /*   STEP 1   */
-export const leagueID = "990395731498307584"; // your league ID
-export const leagueName = "The D League"; // your league name
-export const dues = 100; // (optional) used in template constitution page
-export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
+export const leagueID = "1003091604019859456"; // your league ID
+export const leagueName = "Alpha Dog T1"; // your league name
+export const dues = 150; // (optional) used in template constitution page
+export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
   <p>The time is now old man</p>
   <p>This represents a new dawn in the Fantasy Football world</p>
-  <p>Introducing a transformative vision for the future of fantasy football! Our mission is to revolutionize the industry by redefining the game for a new generation of players and enthusiast.</p>
+  <p>Introducing a first of its kind vision for the future of fantasy football!</p>
   <p>Leaving the next 2 rows open for copy changes</p>
   <p>Lorem ipsum bitches</p>
 `;
@@ -27,7 +27,7 @@ export const managers = [
     {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "990392269855428608",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs
-      "name": "Jon Bon Jophy, AKA Jophy and the Pussycats, AKA Jophy Joffer: King of Zamunda",
+      "name": "Jon Bon Jophy",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "SGV", // (optional)
       "bio": "I eat too much, I drink too much... where was I going with this?",
@@ -49,7 +49,7 @@ export const managers = [
     },
     {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID": "990453765100597248",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs
+      "managerID": "1003106559033090048",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs
       "name": "Uncle Gilly",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Covina, but my heart is in Sunset", // (optional)
@@ -72,7 +72,7 @@ export const managers = [
     },
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID": "972383175261454336",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs
+      "managerID": "1003119082574614528",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs
       "name": "Grippi",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Living Room, Covina, CA", // (optional)
